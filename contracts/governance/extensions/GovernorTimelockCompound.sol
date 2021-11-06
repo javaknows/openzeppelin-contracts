@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./IGovernorTimelock.sol";
-import "../Governor.sol";
-import "../../utils/math/SafeCast.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/IGovernorTimelock.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/Governor.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/SafeCast.sol";
 
 /**
  * https://github.com/compound-finance/compound-protocol/blob/master/contracts/Timelock.sol[Compound's timelock] interface
