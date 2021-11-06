@@ -2,7 +2,7 @@
 // OpenZeppelin Contracts v4.3.2 (token/ERC777/presets/ERC777PresetFixedSupply.sol)
 pragma solidity ^0.8.0;
 
-import "../ERC777.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/ERC777.sol";
 
 /**
  * @dev {ERC777} token, including:
