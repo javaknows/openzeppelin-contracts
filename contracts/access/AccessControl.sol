@@ -3,10 +3,10 @@
 
 pragma solidity ^0.8.0;
 
-import "./IAccessControl.sol";
-import "../utils/Context.sol";
-import "../utils/Strings.sol";
-import "../utils/introspection/ERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/IAccessControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165.sol";
 
 /**
  * @dev Contract module that allows children to implement role-based access
