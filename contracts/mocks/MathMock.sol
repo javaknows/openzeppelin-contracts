@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/math/Math.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol";
 
 contract MathMock {
     function max(uint256 a, uint256 b) public pure returns (uint256) {
