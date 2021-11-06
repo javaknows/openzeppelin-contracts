@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../security/Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/security/Pausable.sol";
 
 contract PausableMock is Pausable {
     bool public drasticMeasureTaken;
