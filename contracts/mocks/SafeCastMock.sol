@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/math/SafeCast.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/SafeCast.sol";
 
 contract SafeCastMock {
     using SafeCast for uint256;
