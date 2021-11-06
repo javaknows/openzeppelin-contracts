@@ -3,11 +3,11 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC1155.sol";
-import "../extensions/ERC1155Burnable.sol";
-import "../extensions/ERC1155Pausable.sol";
-import "../../../access/AccessControlEnumerable.sol";
-import "../../../utils/Context.sol";
+import ".https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/extensions/ERC1155Burnable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/extensions/ERC1155Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/AccessControlEnumerable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
 
 /**
  * @dev {ERC1155} token, including:
