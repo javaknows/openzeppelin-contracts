@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/Create2.sol";
-import "../utils/introspection/ERC1820Implementer.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Create2.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC1820Implementer.sol";
 
 contract Create2Impl {
     function deploy(
