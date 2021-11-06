@@ -3,6 +3,6 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC20/extensions/draft-IERC20Permit.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/draft-IERC20Permit.sol";
 
 interface IERC2612 is IERC20Permit {}
