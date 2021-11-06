@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../proxy/Clones.sol";
-import "../utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/Clones.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
 
 contract ClonesMock {
     using Address for address;
