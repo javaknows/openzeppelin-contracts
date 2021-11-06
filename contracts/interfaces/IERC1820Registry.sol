@@ -3,4 +3,4 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/introspection/IERC1820Registry.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC1820Registry.sol";
