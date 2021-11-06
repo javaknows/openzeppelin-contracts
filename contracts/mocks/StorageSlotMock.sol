@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/StorageSlot.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/StorageSlot.sol";
 
 contract StorageSlotMock {
     using StorageSlot for bytes32;
