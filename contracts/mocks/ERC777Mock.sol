@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/Context.sol";
-import "../token/ERC777/ERC777.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/ERC777.sol";
 
 contract ERC777Mock is Context, ERC777 {
     event BeforeTokenTransfer();
