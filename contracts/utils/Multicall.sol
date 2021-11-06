@@ -3,8 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./Address.sol";
-
+import 'https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol'
 /**
  * @dev Provides a function to batch together multiple calls in a single external call.
  *
