@@ -3,4 +3,4 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC721/extensions/IERC721Enumerable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/IERC721Enumerable.sol";
