@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./IAccessControlEnumerable.sol";
-import "./AccessControl.sol";
-import "../utils/structs/EnumerableSet.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/IAccessControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/structs/EnumerableSet.sol";
 
 /**
  * @dev Extension of {AccessControl} that allows enumerating the members of each role.
