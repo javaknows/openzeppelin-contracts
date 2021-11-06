@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/structs/EnumerableMap.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/structs/EnumerableMap.sol";
 
 contract EnumerableMapMock {
     using EnumerableMap for EnumerableMap.UintToAddressMap;
