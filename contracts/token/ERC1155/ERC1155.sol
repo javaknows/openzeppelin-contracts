@@ -3,12 +3,12 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC1155.sol";
-import "./IERC1155Receiver.sol";
-import "./extensions/IERC1155MetadataURI.sol";
-import "../../utils/Address.sol";
-import "../../utils/Context.sol";
-import "../../utils/introspection/ERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/IERC1155.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/IERC1155Receiver.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/extensions/IERC1155MetadataURI.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165.sol";
 
 /**
  * @dev Implementation of the basic standard multi-token.
