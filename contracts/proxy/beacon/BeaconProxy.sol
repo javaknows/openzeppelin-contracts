@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./IBeacon.sol";
-import "../Proxy.sol";
-import "../ERC1967/ERC1967Upgrade.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/beacon/IBeacon.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/Proxy.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 /**
  * @dev This contract implements a proxy that gets the implementation address for each call from a {UpgradeableBeacon}.
