@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/Context.sol";
-import "../token/ERC20/IERC20.sol";
-import "../token/ERC20/utils/SafeERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/utils/SafeERC20.sol";
 
 contract ERC20ReturnFalseMock is Context {
     uint256 private _allowance;
