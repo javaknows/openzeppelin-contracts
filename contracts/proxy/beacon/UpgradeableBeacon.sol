@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./IBeacon.sol";
-import "../../access/Ownable.sol";
-import "../../utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/beacon/IBeacon.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
 
 /**
  * @dev This contract is used in conjunction with one or more instances of {BeaconProxy} to determine their
