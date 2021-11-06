@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC721.sol";
-import "../../../security/Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/security/Pausable.sol";
 
 /**
  * @dev ERC721 token with pausable token transfers, minting and burning.
