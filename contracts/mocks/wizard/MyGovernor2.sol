@@ -1,12 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.2;
 
-import "../../governance/Governor.sol";
-import "../../governance/extensions/GovernorProposalThreshold.sol";
-import "../../governance/extensions/GovernorCountingSimple.sol";
-import "../../governance/extensions/GovernorVotes.sol";
-import "../../governance/extensions/GovernorVotesQuorumFraction.sol";
-import "../../governance/extensions/GovernorTimelockControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/Governor.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorProposalThreshold.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorCountingSimple.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotes.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorTimelockControl.sol";
+
 
 contract MyGovernor2 is
     Governor,
