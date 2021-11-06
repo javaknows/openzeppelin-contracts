@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../../../interfaces/IERC3156.sol";
-import "../ERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC3156.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
 /**
  * @dev Implementation of the ERC3156 Flash loans extension, as defined in
