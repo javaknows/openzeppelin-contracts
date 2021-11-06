@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./math/Math.sol";
+https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/Math.sol
 
 /**
  * @dev Collection of functions related to array types.
