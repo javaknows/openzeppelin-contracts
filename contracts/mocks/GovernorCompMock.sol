@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../governance/extensions/GovernorCountingSimple.sol";
-import "../governance/extensions/GovernorVotesComp.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorCountingSimple.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotesComp.sol";
 
 contract GovernorCompMock is GovernorVotesComp, GovernorCountingSimple {
     constructor(string memory name_, ERC20VotesComp token_) Governor(name_) GovernorVotesComp(token_) {}
