@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "./ERC1155Mock.sol";
-import "../token/ERC1155/extensions/ERC1155Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/mocks/ERC1155Mock.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 
 contract ERC1155PausableMock is ERC1155Mock, ERC1155Pausable {
     constructor(string memory uri) ERC1155Mock(uri) {}
