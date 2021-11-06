@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC20.sol";
-import "../../../utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
 
 /**
  * @dev Extension of {ERC20} that allows token holders to destroy both their own
