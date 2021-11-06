@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/introspection/ERC165Checker.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165Checker.sol";
 
 contract ERC165CheckerMock {
     using ERC165Checker for address;
