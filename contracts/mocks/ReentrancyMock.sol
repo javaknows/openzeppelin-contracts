@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../security/ReentrancyGuard.sol";
-import "./ReentrancyAttack.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/security/ReentrancyGuard.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/mocks/ReentrancyAttack.sol";
 
 contract ReentrancyMock is ReentrancyGuard {
     uint256 public counter;
