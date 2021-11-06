@@ -3,11 +3,11 @@
 
 pragma solidity ^0.8.0;
 
-import "../../utils/Counters.sol";
-import "../../utils/math/SafeCast.sol";
-import "../extensions/IGovernorTimelock.sol";
-import "../Governor.sol";
-import "./IGovernorCompatibilityBravo.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/SafeCast.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/IGovernorTimelock.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/Governor.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/compatibility/IGovernorCompatibilityBravo.sol";
 
 /**
  * @dev Compatibility layer that implements GovernorBravo compatibility on to of {Governor}.
