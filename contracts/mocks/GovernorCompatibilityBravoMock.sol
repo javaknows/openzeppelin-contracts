@@ -2,10 +2,10 @@
 
 pragma solidity ^0.8.0;
 
-import "../governance/compatibility/GovernorCompatibilityBravo.sol";
-import "../governance/extensions/GovernorTimelockCompound.sol";
-import "../governance/extensions/GovernorSettings.sol";
-import "../governance/extensions/GovernorVotesComp.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/compatibility/GovernorCompatibilityBravo.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorTimelockControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorSettings.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotes.sol";
 
 contract GovernorCompatibilityBravoMock is
     GovernorCompatibilityBravo,
