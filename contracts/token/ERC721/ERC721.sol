@@ -3,13 +3,13 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC721.sol";
-import "./IERC721Receiver.sol";
-import "./extensions/IERC721Metadata.sol";
-import "../../utils/Address.sol";
-import "../../utils/Context.sol";
-import "../../utils/Strings.sol";
-import "../../utils/introspection/ERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC721.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC721Receiver.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC721Metadata.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165.sol";
 
 /**
  * @dev Implementation of https://eips.ethereum.org/EIPS/eip-721[ERC721] Non-Fungible Token Standard, including
