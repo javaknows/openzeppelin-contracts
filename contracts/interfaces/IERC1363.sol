@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC20.sol";
-import "./IERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC165.sol";
 
 interface IERC1363 is IERC165, IERC20 {
     /*
