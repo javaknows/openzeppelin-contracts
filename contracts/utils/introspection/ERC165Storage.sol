@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./ERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/IERC1155.sol";
 
 /**
  * @dev Storage based implementation of the {IERC165} interface.
