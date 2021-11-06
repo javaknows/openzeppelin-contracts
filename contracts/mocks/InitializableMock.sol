@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../proxy/utils/Initializable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/utils/Initializable.sol";
 
 /**
  * @title InitializableMock
