@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./MulticallTokenMock.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/mocks/MulticallTokenMock.sol";
 
 contract MulticallTest {
     function testReturnValues(
