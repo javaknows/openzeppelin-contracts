@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
 
 /**
  * @dev Extension of {ERC20} that adds a cap to the supply of tokens.
