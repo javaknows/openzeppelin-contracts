@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../Proxy.sol";
-import "./ERC1967Upgrade.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/Proxy.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/ERC1967/ERC1967Proxy.sol";
 
 /**
  * @dev This contract implements an upgradeable proxy. It is upgradeable because calls are delegated to an
