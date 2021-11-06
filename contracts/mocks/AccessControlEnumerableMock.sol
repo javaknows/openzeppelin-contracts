@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../access/AccessControlEnumerable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/AccessControlEnumerable.sol";
 
 contract AccessControlEnumerableMock is AccessControlEnumerable {
     constructor() {
