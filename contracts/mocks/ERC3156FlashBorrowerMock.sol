@@ -2,9 +2,9 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC20/IERC20.sol";
-import "../interfaces/IERC3156.sol";
-import "../utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC3156.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
 
 /**
  * @dev WARNING: this IERC3156FlashBorrower mock implementation is for testing purposes ONLY.
