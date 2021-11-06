@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../security/PullPayment.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/security/PullPayment.sol";
 
 // mock class using PullPayment
 contract PullPaymentMock is PullPayment {
