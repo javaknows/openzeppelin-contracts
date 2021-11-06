@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/math/SignedSafeMath.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/math/SignedSafeMath.sol";
 
 contract SignedSafeMathMock {
     function mul(int256 a, int256 b) public pure returns (int256) {
