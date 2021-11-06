@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./ERC20Votes.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Votes.sol";
 
 /**
  * @dev Extension of ERC20 to support Compound's voting and delegation. This version exactly matches Compound's
