@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC1155/ERC1155.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/ERC1155.sol";
 
 /**
  * @title ERC1155Mock
