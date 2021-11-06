@@ -3,13 +3,13 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC721.sol";
-import "../extensions/ERC721Enumerable.sol";
-import "../extensions/ERC721Burnable.sol";
-import "../extensions/ERC721Pausable.sol";
-import "../../../access/AccessControlEnumerable.sol";
-import "../../../utils/Context.sol";
-import "../../../utils/Counters.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Burnable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/extensions/ERC721Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol";
 
 /**
  * @dev {ERC721} token, including:
