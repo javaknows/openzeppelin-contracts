@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "./ContextMock.sol";
-import "../metatx/ERC2771Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/mocks/ContextMock.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/metatx/ERC2771Context.sol";
 
 // By inheriting from ERC2771Context, Context's internal functions are overridden automatically
 contract ERC2771ContextMock is ContextMock, ERC2771Context {
