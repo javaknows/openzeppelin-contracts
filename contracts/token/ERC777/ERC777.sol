@@ -3,13 +3,13 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC777.sol";
-import "./IERC777Recipient.sol";
-import "./IERC777Sender.sol";
-import "../ERC20/IERC20.sol";
-import "../../utils/Address.sol";
-import "../../utils/Context.sol";
-import "../../utils/introspection/IERC1820Registry.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777Recipient.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777Sender.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/IERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC1820Registry.sol";
 
 /**
  * @dev Implementation of the {IERC777} interface.
