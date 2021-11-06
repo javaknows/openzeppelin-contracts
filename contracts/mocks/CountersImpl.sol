@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/Counters.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Counters.sol";
 
 contract CountersImpl {
     using Counters for Counters.Counter;
