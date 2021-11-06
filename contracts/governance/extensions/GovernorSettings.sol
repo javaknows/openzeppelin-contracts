@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../Governor.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/Governor.sol";
 
 /**
  * @dev Extension of {Governor} for settings updatable through governance.
