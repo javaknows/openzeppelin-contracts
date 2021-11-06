@@ -2,12 +2,12 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC777/IERC777.sol";
-import "../token/ERC777/IERC777Sender.sol";
-import "../token/ERC777/IERC777Recipient.sol";
-import "../utils/Context.sol";
-import "../utils/introspection/IERC1820Registry.sol";
-import "../utils/introspection/ERC1820Implementer.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777Sender.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC777/IERC777Recipient.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC1820Registry.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC1820Implementer.sol";
 
 contract ERC777SenderRecipientMock is Context, IERC777Sender, IERC777Recipient, ERC1820Implementer {
     event TokensToSendCalled(
