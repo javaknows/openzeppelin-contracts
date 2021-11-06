@@ -2,8 +2,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../CountersImpl.sol";
-import "../../proxy/utils/UUPSUpgradeable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/mocks/CountersImpl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/utils/UUPSUpgradeable.sol";
 
 contract UUPSUpgradeableMock is CountersImpl, UUPSUpgradeable {
     // Not having any checks in this function is dangerous! Do not do this outside tests!
