@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../IGovernor.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/IGovernor.sol";
 
 /**
  * @dev Interface extension that adds missing functions to the {Governor} core to provide `GovernorBravo` compatibility.
