@@ -3,11 +3,11 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC20.sol";
-import "../extensions/ERC20Burnable.sol";
-import "../extensions/ERC20Pausable.sol";
-import "../../../access/AccessControlEnumerable.sol";
-import "../../../utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Burnable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/edit/master/contracts/access/AccessControlEnumerable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
 
 /**
  * @dev {ERC20} token, including:
