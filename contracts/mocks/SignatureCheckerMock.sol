@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/cryptography/SignatureChecker.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/cryptography/SignatureChecker.sol";
 
 contract SignatureCheckerMock {
     using SignatureChecker for address;
