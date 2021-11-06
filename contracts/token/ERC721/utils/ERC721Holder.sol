@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../IERC721Receiver.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC721.sol";
 
 /**
  * @dev Implementation of the {IERC721Receiver} interface.
