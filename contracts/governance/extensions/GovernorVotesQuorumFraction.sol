@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./GovernorVotes.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotes.sol";
 
 /**
  * @dev Extension of {Governor} for voting weight extraction from an {ERC20Votes} token and a quorum expressed as a
