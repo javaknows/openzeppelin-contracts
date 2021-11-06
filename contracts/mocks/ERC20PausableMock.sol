@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../token/ERC20/extensions/ERC20Pausable.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC20/extensions/ERC20Pausable.sol";
 
 // mock class using ERC20Pausable
 contract ERC20PausableMock is ERC20Pausable {
