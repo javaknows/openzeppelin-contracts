@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../access/AccessControl.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/access/AccessControl.sol";
 
 contract AccessControlMock is AccessControl {
     constructor() {
