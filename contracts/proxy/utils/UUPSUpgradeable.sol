@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC1967/ERC1967Upgrade.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/ERC1967/ERC1967Upgrade.sol";
 
 /**
  * @dev An upgradeability mechanism designed for UUPS proxies. The functions included here can perform an upgrade of an
