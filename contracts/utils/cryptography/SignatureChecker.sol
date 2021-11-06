@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.0;
 
-import "./ECDSA.sol";
-import "../Address.sol";
-import "../../interfaces/IERC1271.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Strings.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/interfaces/IERC1271.sol";
 
 /**
  * @dev Signature verification helper: Provide a single mechanism to verify both private-key (EOA) ECDSA signature and
