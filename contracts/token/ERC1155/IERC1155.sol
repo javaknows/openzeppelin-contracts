@@ -5,7 +5,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC1155/IERC1155.sol";
 
-import "../../utils/introspection/IERC165.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/ERC165.sol";
 
 /**
  * @dev Required interface of an ERC1155 compliant contract, as defined in the
