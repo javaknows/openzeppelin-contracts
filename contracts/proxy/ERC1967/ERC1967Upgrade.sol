@@ -3,9 +3,9 @@
 
 pragma solidity ^0.8.2;
 
-import "../beacon/IBeacon.sol";
-import "../../utils/Address.sol";
-import "../../utils/StorageSlot.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/proxy/beacon/IBeacon.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Address.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/StorageSlot.sol";
 
 /**
  * @dev This abstract contract provides getters and event emitting update functions for
