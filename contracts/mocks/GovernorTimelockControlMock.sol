@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/TimelockController.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorTimelockControl.sol";
 import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorSettings.sol";
 import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorCountingSimple.sol";
 import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/governance/extensions/GovernorVotesQuorumFraction.sol";
