@@ -2,7 +2,7 @@
 
 pragma solidity ^0.8.0;
 
-import "../utils/escrow/ConditionalEscrow.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/escrow/ConditionalEscrow.sol";
 
 // mock class using ConditionalEscrow
 contract ConditionalEscrowMock is ConditionalEscrow {
