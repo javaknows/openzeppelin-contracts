@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./IERC1820Implementer.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/introspection/IERC1820Implementer.sol";
 
 /**
  * @dev Implementation of the {IERC1820Implementer} interface.
