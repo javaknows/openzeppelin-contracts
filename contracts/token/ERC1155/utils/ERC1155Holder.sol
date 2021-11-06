@@ -3,7 +3,7 @@
 
 pragma solidity ^0.8.0;
 
-import "./ERC1155Receiver.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC1155/IERC1155Receiver.sol";
 
 /**
  * @dev _Available since v3.1._
