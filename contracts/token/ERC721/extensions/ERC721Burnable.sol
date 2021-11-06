@@ -3,8 +3,8 @@
 
 pragma solidity ^0.8.0;
 
-import "../ERC721.sol";
-import "../../../utils/Context.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/token/ERC721/ERC721.sol";
+import "https://github.com/javaknows/openzeppelin-contracts/blob/master/contracts/utils/Context.sol";
 
 /**
  * @title ERC721 Burnable Token
